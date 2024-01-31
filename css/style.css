@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  h1 {
+    color: #61dafb;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  audio {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Добавим стили для контейнера плейлиста */
+  .playlist-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Добавим стили для темных кнопок управления плеером */
+  audio::-webkit-media-controls-panel {
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  audio::-webkit-media-controls-play-button {
+    color: #61dafb;
+  }
+  
+  audio::-webkit-media-controls-volume-slider {
+    background-color: #333;
+  }
+  
